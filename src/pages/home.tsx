@@ -7,6 +7,7 @@ import {
 import { TransactionModalDetails } from "@/components/transaction-modal";
 import { Header } from "@/components/header";
 import { Summary } from "@/components/summary";
+import { TransactionsTable } from "@/components/transactions-table";
 
 
 export function Home() {
@@ -19,11 +20,12 @@ export function Home() {
   }
 
   return (
-    <div className="w-screen h-screen bg-gray-100 font-poppins">
+    <div className="flex flex-col h-full bg-gray-100 font-poppins">
       <Dialog>
         <Header/>
         <Summary/>
-        <TransactionModalDetails />
+        <TransactionsTable/>
+        <TransactionModalDetails/>
       </Dialog>
     </div>
   );

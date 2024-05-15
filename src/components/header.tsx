@@ -7,7 +7,7 @@ import dtmoneylogo from '../assets/dtmoney-logo.svg';
 
 export function Header() {
   return (
-    <div className="bg-headerbg h-64">
+    <div className="bg-headerbg pb-44">
       <div className="flex flex-row mx-56 pt-9 justify-between">
         <img className="w-44 h-14" src={dtmoneylogo} alt="dt money" />
         

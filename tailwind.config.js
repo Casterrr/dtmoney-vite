@@ -52,6 +52,7 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
         greenmoney: "#33CC95",
+        redmoney: "#E62E4D",
         headerbg: "#5429CC",
         hoverbutton: "#6933FF"
       },
@@ -77,6 +78,10 @@ module.exports = {
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
       },
+      width: {
+        '83': '21rem',
+        '9/13': '69.6666666%'
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
