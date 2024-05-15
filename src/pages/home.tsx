@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 import {
   Dialog,
@@ -11,13 +11,13 @@ import { TransactionsTable } from "@/components/transactions-table";
 
 
 export function Home() {
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
 
-  async function handleSubscribe() {
+  // async function handleSubscribe() {
 
 
-    navigate('/details');
-  }
+  //   navigate('/details');
+  // }
 
   return (
     <div className="flex flex-col h-full bg-gray-100 font-poppins overflow-x-hidden">
