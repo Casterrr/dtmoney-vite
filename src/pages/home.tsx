@@ -20,7 +20,7 @@ export function Home() {
   }
 
   return (
-    <div className="flex flex-col h-full bg-gray-100 font-poppins">
+    <div className="flex flex-col h-full bg-gray-100 font-poppins overflow-x-hidden">
       <Dialog>
         <Header/>
         <Summary/>
