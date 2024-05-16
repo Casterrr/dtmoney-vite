@@ -11,13 +11,7 @@ import { TransactionsTable } from "@/components/transactions-table";
 
 
 export function Home() {
-  // const navigate = useNavigate()
-
-  // async function handleSubscribe() {
-
-
-  //   navigate('/details');
-  // }
+  
 
   return (
     <div className="flex flex-col h-full bg-gray-100 font-poppins overflow-x-hidden">
